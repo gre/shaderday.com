@@ -8456,7 +8456,7 @@ void main() {
     step(0., v) * color(sqrt(max(v, 0.)) - time),
     1.0);
 }
-`}}),ma=62,ga="Overgrowth",ya=20,ba=40,xa=2,wa=({generation:e,size:t,n:r})=>Object(pe.jsx)(de.Node,{width:t,height:t,shader:Ta.logic,uniforms:{generation:e,prev:de.Uniform.Backbuffer,size:t,seed:r/100},backbuffering:!0}),_a=je.a.memo(wa),Ea=({time:e,generation:t,n:r})=>Object(pe.jsx)(de.Node,{shader:Ta.render,uniforms:{time:e,logic:Object(pe.jsx)(_a,{generation:t,size:140,n:r})},uniformsOptions:{logic:{interpolation:"nearest"}}}),Sa=je.a.memo(Ea),Oa=1e3*Math.random(),Ra=({time:e,n:t})=>Object(pe.jsx)(Sa,{n:t+Oa,time:e,generation:Math.floor(20*e)},t),Ta=de.Shaders.create({logic:{frag:de.GLSL`
+`}}),ma=62,ga="Overgrowth",ya=20,ba=40,xa=2,wa=({generation:e,size:t,n:r})=>Object(pe.jsx)(de.Node,{width:t,height:t,shader:Ta.logic,uniforms:{generation:e,prev:de.Uniform.Backbuffer,size:t,seed:r/100},backbuffering:!0}),_a=je.a.memo(wa),Ea=({time:e,generation:t,n:r})=>Object(pe.jsx)(de.Node,{shader:Ta.render,uniforms:{time:e,logic:Object(pe.jsx)(_a,{generation:t,size:140,n:r})},uniformsOptions:{logic:{interpolation:"nearest"}}}),Sa=je.a.memo(Ea),Oa=1e3*Math.random(),Ra=({time:e,n:t})=>Object(pe.jsx)(Sa,{n:t+Oa,time:e,generation:Math.floor(30*e)},t),Ta=de.Shaders.create({logic:{frag:de.GLSL`
 precision highp float;
 varying vec2 uv;
 uniform float generation;
