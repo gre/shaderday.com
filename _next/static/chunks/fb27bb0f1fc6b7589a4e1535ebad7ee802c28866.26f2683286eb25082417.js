@@ -8828,7 +8828,7 @@ void main() {
   float b = shape(base, 1.);
   gl_FragColor = vec4(a, b, b, 1.0);
 }
-`}}),Ts=68,zs="ring",Cs=800,Ps=2,Is=Ps+10,js=30,As=1,ks=7,Ds=!0,Ls=128,Ns=({time:e})=>Object(me.jsx)(ge.NearestCopy,{children:Object(me.jsx)(Ms,{persistence:.9,children:Object(me.jsx)(ge.Node,{shader:Us.render,uniforms:{resolution:ge.Uniform.Resolution,time:e,freq:2}})})}),Ms=({children:e,persistence:t})=>Object(me.jsx)(ge.Node,{shader:Us.persistence,backbuffering:!0,uniforms:{t:e,back:ge.Uniform.Backbuffer,persistence:t}}),Us=ge.Shaders.create({persistence:{frag:ge.GLSL`
+`}}),Ts=67,zs="ring",Cs=800,Ps=2,Is=Ps+10,js=30,As=1,ks=7,Ds=!0,Ls=128,Ns=({time:e})=>Object(me.jsx)(ge.NearestCopy,{children:Object(me.jsx)(Ms,{persistence:.9,children:Object(me.jsx)(ge.Node,{shader:Us.render,uniforms:{resolution:ge.Uniform.Resolution,time:e,freq:2}})})}),Ms=({children:e,persistence:t})=>Object(me.jsx)(ge.Node,{shader:Us.persistence,backbuffering:!0,uniforms:{t:e,back:ge.Uniform.Backbuffer,persistence:t}}),Us=ge.Shaders.create({persistence:{frag:ge.GLSL`
   precision highp float;
   varying vec2 uv;
   uniform sampler2D t, back;
