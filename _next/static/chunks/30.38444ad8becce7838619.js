@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[30],{mJEg:function(n,t,a){"use strict";a.r(t),t.default='---\ntitle: "Growing parametric splitted"\ndescription: "stacking multiple parametric functions. Sakura Gelly Roll on black A4, revealing artifacts of the paper."\ntags:\n  - parametric\n---\n'}}]);
