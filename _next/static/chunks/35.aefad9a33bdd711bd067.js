@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[35],{Owtc:function(n,t,i){"use strict";i.r(t),t.default='---\ntitle: ""\nthumbnail: /images/plots/.jpg\ndescription: ""\n---\n'}}]);
