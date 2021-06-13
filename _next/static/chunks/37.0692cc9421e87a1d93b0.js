@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[37],{TriF:function(n,i,t){"use strict";t.r(i),i.default='---\ntitle: ""\nthumbnail: /images/plots/.jpg\ndescription: ""\n---\n'}}]);
